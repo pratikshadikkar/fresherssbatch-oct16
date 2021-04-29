@@ -1,0 +1,17 @@
+package com.test.demo
+
+
+	def l1 =[1,2,3,4]
+	println l1
+	println l1.sum()
+	
+	def l2= l1.multiply(2)
+	println l2
+	println l2.sum()
+	println l2.average()
+output:
+[1, 2, 3, 4]
+10
+[1, 2, 3, 4, 1, 2, 3, 4]
+20
+2.5

@@ -1,0 +1,52 @@
+package com.test.demo
+
+class Split_method {
+	static void main(String[] args) {
+		String a = "Hello,World. How are you?";
+		String[] str;
+		str = a.split('');
+		
+		for( String values : str )
+		println(values);
+		println a.length();
+		//Printing the substring
+		println a.substring(0,5);
+		println a[0..4];
+		println a.reverse().take(4);
+		println a.tokenize();
+		println a.length();
+	 }
+}
+
+output:
+H
+e
+l
+l
+o
+,
+W
+o
+r
+l
+d
+.
+ 
+H
+o
+w
+ 
+a
+r
+e
+ 
+y
+o
+u
+?
+25
+Hello
+Hello
+?uoy
+[Hello,World., How, are, you?]
+25

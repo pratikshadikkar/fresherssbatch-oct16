@@ -1,0 +1,16 @@
+Develop a script that creates, sets and displays two variables to the terminal when run. Within this script, add comments to explain what the script is doing, what each variable is and, using inline comments, what each command is doing.
+
+#! /bin/bash
+
+#Creates and displays two variable as output
+
+Firstname=Pratiksha
+Lastname=Dikkar
+
+echo "Fname is " $Firstname
+echo "Lname is " $Lastname
+
+output:
+pratikshadikkar@SudhirD:~$ ./hello.sh
+Fname is  Pratiksha
+Lname is  Dikkar

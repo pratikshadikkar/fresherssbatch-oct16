@@ -1,0 +1,10 @@
+package com.test.demo
+
+	//Create a list of numbers. Print all elements greater than zero.
+	
+	def list=[7,8,-4,0,8,-1]
+	def filter=list.findAll{it>0}
+	println filter
+
+output:
+[7, 8, 8]

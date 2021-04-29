@@ -1,0 +1,51 @@
+package com.test.demo
+
+class PalindromeGroovy {
+	public static void main(String[] args) {
+		
+				String originalString = "racecar";
+				String reverseString = "";
+		
+				int length = originalString.length();
+		
+				for(int i = length - 1; i >= 0; i --) {
+					reverseString = reverseString + originalString.charAt(i);
+				}
+		
+				// Case in-sensitive comparision
+				if (originalString.equalsIgnoreCase(reverseString)) {
+					System.out.println("The given string "+originalString+" is Palindrome");
+				} else {
+					System.out.println("The given string is NOT a Palindrome");
+				}
+			}
+}
+
+output:
+The given string racecar is Palindrome
+
+package com.test.demo
+
+class PalindromeGroovy {
+	public static void main(String[] args) {
+		
+				String originalString = "Bob";
+				String reverseString = "";
+		
+				int length = originalString.length();
+		
+				for(int i = length - 1; i >= 0; i --) {
+					reverseString = reverseString + originalString.charAt(i);
+				}
+		
+				// Case in-sensitive comparision
+				if (originalString.equalsIgnoreCase(reverseString)) {
+					System.out.println("The given string "+originalString+" is Palindrome");
+				} else {
+					System.out.println("The given string is NOT a Palindrome");
+				}
+			}
+}
+
+output:
+The given string Bob is Palindrome

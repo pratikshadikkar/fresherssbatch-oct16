@@ -1,0 +1,19 @@
+package com.test.demo
+
+	def string= """Hello everyone,
+			this is a multiline string,
+			example for assignment """
+count=0
+def vow=["a","e","i","o","u"]
+for (def i in string) {
+for (def j in vow) {
+if (i==j) {
+	count+=1
+
+}
+}
+}
+println "The number of vowels in the given string is :"+count
+
+output:
+The number of vowels in the given string is :21

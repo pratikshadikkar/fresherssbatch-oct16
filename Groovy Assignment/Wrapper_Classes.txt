@@ -1,0 +1,53 @@
+package com.test.demo
+
+//min and max values for the javaprimitives: byte,short,int,long,float,double
+
+//Byte
+println "Byte data type values.."
+println Byte.MIN_VALUE
+println Byte.MAX_VALUE
+
+//Short
+println "Short data type values.."
+println Short.MIN_VALUE
+println Short.MAX_VALUE
+
+//Int
+println "Integer data type values.."
+println Integer.MIN_VALUE
+println Integer.MAX_VALUE
+
+//Long
+println "Long data type values.."
+println Long.MIN_VALUE
+println Long.MAX_VALUE
+
+//Float
+println "Float data type values.."
+println Float.MIN_VALUE
+println Float.MAX_VALUE
+
+//Double
+println "Double data type values.."
+println Double.MIN_VALUE
+println Double.MAX_VALUE
+
+Output:
+Byte data type values..
+-128
+127
+Short data type values..
+-32768
+32767
+Integer data type values..
+-2147483648
+2147483647
+Long data type values..
+-9223372036854775808
+9223372036854775807
+Float data type values..
+1.4E-45
+3.4028235E38
+Double data type values..
+4.9E-324
+1.7976931348623157E308

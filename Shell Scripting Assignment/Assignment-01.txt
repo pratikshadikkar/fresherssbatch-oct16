@@ -1,0 +1,21 @@
+Create a script that, when run, will display the following environment variables to the console:
+
+USER
+HOME
+HISTCONTROL
+TERM
+
+#!/bin/bash
+
+#Script to print env variables 
+
+echo $USER
+echo $HOME
+echo $HISTCONTROL
+echo $TERM 
+
+output: 
+pratikshadikkar
+/home/pratikshadikkar
+
+xterm-256color

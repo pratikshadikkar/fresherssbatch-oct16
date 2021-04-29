@@ -1,0 +1,12 @@
+package com.test.demo
+
+//Create a byte variable with its maximum value 
+//What do you get when you add 1 to it
+byte b=127
+println "Maximum value of byte b : "+b
+b++
+println "Value of byte b after adding 1 : "+b
+
+Output:
+Maximum value of byte b : 127
+Value of byte b after adding 1 : -128

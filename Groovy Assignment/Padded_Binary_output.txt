@@ -1,0 +1,9 @@
+package com.test.demo
+
+	for (i in 0..15)
+		println String.format("%4s", Integer.toBinaryString(i)).replace(" ", "0")
+
+output:
+1101
+1110
+1111

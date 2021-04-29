@@ -1,0 +1,12 @@
+package com.test.demo
+
+	def str = ["Blue","Green","Black","Red","White","Yellow","Orange","Pink"]
+	
+	println str.sort()
+	println str.sort { it.size() }
+	println str.sort { -it.size() }
+
+output:
+[Black, Blue, Green, Orange, Pink, Red, White, Yellow]
+[Red, Blue, Pink, Black, Green, White, Orange, Yellow]
+[Orange, Yellow, Black, Green, White, Blue, Pink, Red]
